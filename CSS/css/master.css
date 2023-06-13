@@ -1,0 +1,87 @@
+/* Styles guia
+
+0.Reset
+1.layout
+2. Items genericos
+3. Parts of web
+4. Listas
+*/
+/* 
+-----------------------------------
+
+/* 0 Reset , proporcionado por Meyerweb  */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 1 Layout */
+body {text-align: center; font: 300 25px/ 1.5 'Roboto Condensed' }
+.header{display:  flex; justify-content: center; align-items: center; }
+.navbar { display: flex; justify-content: center; align-items: center; }
+
+.Secreto{text-align:left;}
+.list-services{display:flex; justify-content: center; align-items: center;}
+
+/* 2 items generales */
+.header { height: 450px; background: url(/img/choco.jpg)no-repeat center top; background-size: cover;}
+.navbar {top: 100px; background: blanchedalmond ;}
+.navbar a { color: black; padding:0% 20px; text-decoration: none ; text-transform: uppercase; font:30px 'Stint Ultra Condensed'}
+.title {margin-bottom: 20px; font: 50px 'Stint Ultra Condensed'; text-transform: uppercase;}
+p {margin-bottom: 40px;}
+.sumbit {border: 2px solid white; padding: 10px; display: inline-block; text-decoration: none; color: rgb(255, 255, 255);}
+/*3. Parts of web*/
+ .content { padding: 80px 0px;}
+ .who { background:blanchedalmond; color: black;}
+ .who p{ max-width: 1055px; margin: 0 auto;}
+ .services {background: lavenderblush;}
+ .Secreto {background-image: url(/img/back.jpg); color: rgb(255, 255, 255); }
+.contenido {max-width: 1055; margin: auto;}
+.Secreto p {max-width: 600px;}
+
+.GPI { padding-bottom: 0; color: rgb(255, 255, 255); background: tomato;}
+.mapa img{max-width: 200%; width: 100%;}
+
+/*4. Listas*/
+.services li {padding: 0 30px;}
+.services figcaption {position: relative; left: 0px; top: 0px; bottom: -30px;}
+
